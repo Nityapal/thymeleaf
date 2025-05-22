@@ -55,6 +55,8 @@ public class Mycontroller {
 	@GetMapping("/service")
 	public String serviceHandler(Model m) {
 		
+		m.addAttribute("title", "ajooba");
+		
 		return "service";
 	}
 }

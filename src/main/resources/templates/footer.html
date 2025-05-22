@@ -7,11 +7,11 @@
 <body>
 
 <!-- we can give fragment id and include replace insert -->
-<footer  th:fragment="footer1">
+<footer id="fragmentfooter"  th:fragment="footer1(title)">
 
 	<div class="container">
 	
-		<h1>directed by nitya pal</h1>
+		<h1>directed by <span th:text="${title}" ></span> </h1>
 		<h2>just chill chill just chill</h2>
 		<h1>feel free to contact me</h1>
 	
