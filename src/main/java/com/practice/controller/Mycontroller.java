@@ -59,4 +59,10 @@ public class Mycontroller {
 		
 		return "service";
 	}
+	
+	//for new about 
+	@GetMapping("/newabout")
+	public String newAbout() {
+		return "aboutnew";
+	}
 }
