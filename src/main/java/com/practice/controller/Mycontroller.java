@@ -50,4 +50,11 @@ public class Mycontroller {
 		
 		return "condition";
 	}
+	
+	//handler for fragments
+	@GetMapping("/service")
+	public String serviceHandler(Model m) {
+		
+		return "service";
+	}
 }
